@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "216px",
+
+            md: "960px",
+
+            lg: "1440px",
+          },
+          extend: {
+            colors: {
+              mybrown: "#ad9970",
+            },
+          },
+        },
+      };
+    </script>
+    <script
+      src="https://kit.fontawesome.com/2d1be6abdb.js"
+      crossorigin="anonymous"></script>
+
+    <title>Rode</title>
+  </head>
+  <body>
+    <div class="hidden md:flex p-2 flex-row justify-between px-60 lg:px-72">
+      <div class="flex items-center">
+        <i class="fa-sharp fa-solid fa-location-dot"></i>EN
+      </div>
+      <div>
+        <i class="fa-regular fa-user"></i>
+      </div>
+    </div>
+    <hr />
+    <div
+      class="flex sticky bg-white top-0 justify-between flex-row md:justify-around md:px-40 p-5 lg:px-60">
+      <i class="md:hidden fa-solid fa-bars flex pl-4 items-center"></i>
+      <div class="flex items-center md:hidden">
+        <i class="fa-sharp fa-solid fa-location-dot"></i> EN
+      </div>
+      <img src="./images/logo.PNG" alt="" class="flex" />
+      <div class="hidden md:flex flex-row justify-around">
+        <h1 class="flex flex-row pl-10">PRODUCTS</h1>
+        <h1 class="flex flex-row pl-10">USER GUIDES</h1>
+        <h1 class="flex flex-row pl-10">SOLUTIONS</h1>
+        <h1 class="flex flex-row pl-10">APPAREL</h1>
+        <h1 class="flex flex-row pl-10">SUPPORT</h1>
+      </div>
+      <div>
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    <div
+      class="bg-cover bg-center bg-no-repeat lg:h-screen h-full w-full bg-[url('./images/RODEX.gif')] flex sm:justify-end">
+      <div class="flex flex-col justify-center">
+        <img
+          src="./images/Pre.svg"
+          alt=""
+          class="flex w-40 md:w-[350px] lg:w-[450px] items-center mr-32" />
+        <button
+          class="bg-black mb-40 text-red-800 self-center rounded-full px-6 m-5 p-3">
+          LEARN MORE
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="lg:bg-[url('./images/firstback.jpg')] bg-black bg-cover bg-center bg-no-repeat lg:h-screen h-full w-full">
+      <div
+        class="md:w-4/5 w-full mx-auto flex items-center h-full flex-wrap flex-row">
+        <div class="lg:w-1/2 w-full h-full">
+          <img src="./images/firstback.jpg" alt="img" class="lg:hidden" />
+        </div>
+        <div class="lg:w-1/2 w-full text-center mt-4 lg:mt-0 py-8 md:px-0 px-4">
+          <img src="./images/heroimg.svg" alt="img" class="h-10 mx-auto" />
+          <h2 class="mt-8 text-white text-3xl">The Revolution Is Here</h2>
+          <p class="mt-2 opacity-60 text-white">
+            The RØDECaster Pro II is the world's most powerful all-in-one audio
+            solution for streamers, podcasters, musicians, and creators. Take
+            your content to the next level.
+          </p>
+          <div class="flex justify-center md:mt-12 mt-4 space-x-4">
+            <button class="text-mybrown font-medium text-lg flex items-center">
+              <p>LEARN MORE</p>
+              <i class="fas fa-chevron-right ml-2" aria-hidden="true"> </i>
+            </button>
+            <button
+              class="bg-mybrown text-lg font-medium text-white py-2 px-5 rounded-full hover:bg-white hover:text-black duration-100">
+              BUY NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
