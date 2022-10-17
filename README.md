@@ -18,7 +18,7 @@ This is a clone of RODE microphones homepage built using tailwind CSS.
 
 See it on **Netlify** :
 
-[![Netlify][netlify-shield]][https://rode-new.netlify.app/]
+[![Netlify][netlify-shield][https://rode-new.netlify.app/]]
 
 Source Code :
 
@@ -41,7 +41,7 @@ To build this I took an entire day, I gathered all the assets by inspecting thei
 
 ## For large screens
 
-![large-screen](/large_screen.png)
+![large-screen](/)
 
 ## For mobile screens
 
