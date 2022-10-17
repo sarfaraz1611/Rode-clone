@@ -3,6 +3,8 @@
 ## About The Project
 
 This is a clone of RODE microphones homepage built using tailwind CSS.
+<a href="https://rode-new.netlify.app/">Deployed Link</a>
+  </p>
 
 ## Built With
 
@@ -18,7 +20,7 @@ This is a clone of RODE microphones homepage built using tailwind CSS.
 
 See it on **Netlify** :
 
-[![Netlify][netlify-shield][https://rode-new.netlify.app/]]
+[![Netlify][netlify-shield]]
 
 Source Code :
 
