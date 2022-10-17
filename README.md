@@ -18,7 +18,7 @@ This is a clone of RODE microphones homepage built using tailwind CSS.
 
 See it on **Netlify** :
 
-[![Netlify][netlify-shield]][project-url]
+[![Netlify][netlify-shield]][https://rode-new.netlify.app/]
 
 Source Code :
 
@@ -51,11 +51,11 @@ To build this I took an entire day, I gathered all the assets by inspecting thei
 
 <!-- Tools and Technologies -->
 
-[html-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
-[tailwind-css]: https://img.shields.io/badge/-Tailwind%20CSS-bluegreen
-[chrome-shield]: https://img.shields.io/badge/
-[vscode-shield]: https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white
-[netlify-shield]: https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7
-[git-shield]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
-[github-shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[html-shield]: [https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white]
+[tailwind-css]: [https://img.shields.io/badge/-Tailwind%20CSS-bluegreen]
+[chrome-shield]: [https://img.shields.io/badge/]
+[vscode-shield]: [https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white]
+[netlify-shield]: [https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7]
+[git-shield]: [https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white]
+[github-shield]: [https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white]
 
