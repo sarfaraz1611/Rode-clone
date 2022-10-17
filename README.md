@@ -20,7 +20,7 @@ This is a clone of RODE microphones homepage built using tailwind CSS.
 
 See it on **Netlify** :
 
-[![Netlify][netlify-shield]]
+![Netlify][netlify-shield]
 
 Source Code :
 
