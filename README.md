@@ -43,11 +43,13 @@ To build this I took an entire day, I gathered all the assets by inspecting thei
 
 ## For large screens
 
-![large-screen](/)
+![large-screen](/large.png)
 
+## for tablet screens 
+![tablet-screen](/tablet.png)
 ## For mobile screens
 
-![mobile-screens](/mobile_screen.png)
+![mobile-screens](/mobile.png)
 
 <p align="right"><a href="#top"> back to top &#x2191;</a></p>
 <!-- Tools and Technologies -->
