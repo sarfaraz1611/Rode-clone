@@ -25,13 +25,14 @@
     };
   </script>
   <script src="https://kit.fontawesome.com/2d1be6abdb.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Rode</title>
 </head>
 <!-- style=" overflow: hidden;" -->
 
 <body>
-  <div class="hidden md:flex p-2 flex-row justify-between px-60 lg:px-72">
+  <div class="hidden md:flex p-2 flex-row justify-between px-60 lg:px-72 z-50">
     <div class="flex items-center">
       <i class="fa-sharp fa-solid fa-location-dot"></i>EN
     </div>
@@ -40,7 +41,7 @@
     </div>
   </div>
   <hr />
-  <div class="flex sticky bg-white top-0 justify-between flex-row md:justify-around md:px-40 p-5 lg:px-60">
+  <div class="flex sticky bg-white top-0 justify-between flex-row md:justify-around md:px-40 p-5 lg:px-60 z-50">
     <i class="md:hidden fa-solid fa-bars flex pl-4 items-center"></i>
     <div class="flex items-center md:hidden">
       <i class="fa-sharp fa-solid fa-location-dot"></i> EN
@@ -62,7 +63,7 @@
       <div class="lg:w-1/2 w-[100%] h-full">
         <img src="./images/RODEX.gif" alt="img" class="lg:hidden" />
       </div>
-      <div class="lg:w-1/2 w-full  h-56 flex flex-col  items-center mt-4 lg:mt-0 py-8 md:px-0 ">
+      <div class="lg:w-1/2 w-full  h-56 flex flex-col  items-center mt-4 lg:mt-0 py-8 md:px-0 " data-aos="fade-left">
         <img src="./images/Pre.svg" alt="" class="flex w-40 md:w-[350px] lg:w-[450px] items-center" />
         <button class="bg-black text-xl mb-40 text-red-800 self-center rounded-full px-6 m-5 p-3">
           LEARN MORE
@@ -76,7 +77,7 @@
       <div class="lg:w-1/2 w-full h-full">
         <img src="./images/firstback.jpg" alt="img" class="lg:hidden" />
       </div>
-      <div class="lg:w-1/2 w-full text-center mt-4 lg:mt-0 py-8 md:px-0 px-4">
+      <div class="lg:w-1/2 w-full text-center mt-4 lg:mt-0 py-8 md:px-0 px-4"  data-aos="fade-left">
         <img src="./images/heroimg.svg" alt="img" class="h-10 mx-auto" />
         <h2 class="mt-8 text-white text-3xl">The Revolution Is Here</h2>
         <p class="mt-2 opacity-60 text-white">
@@ -105,10 +106,10 @@
         <!-- <div class=" w-full h-full"> -->
         <img src="./images/headphone.jpg" alt="img" class="lg:hidden" />
         <!-- </div> -->
-        <div class="lg:w-1/2 w-full text-center  mt-4 lg:mt-0 py-8 md:px-0 px-4">
+        <div class="lg:w-1/2 w-full text-center  mt-4 lg:mt-0 py-8 md:px-0 px-4" data-aos="fade-right">
           <img src="./images/nth.svg" alt="img" class="h-10 mx-auto" />
           <h2 class="mt-8 text-black text-3xl">Your Search For The Perfect Headphones Is Over</h2>
-          <p class="mt-2  text-gray-600 ">
+          <p class="mt-2  text-gray-600 mx-5 ">
             Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and
             iconic looks that inspires creativity.
           </p>
@@ -130,7 +131,7 @@
           <div class="lg:w-1/2 w-full h-full">
             <img src="./images/nft.jpg" alt="img" class="lg:hidden" />
           </div>
-          <div class="lg:w-1/2 w-full text-center mt-4 lg:mt-0 py-8 md:px-0 px-4">
+          <div class="lg:w-1/2 w-full text-center mt-4 lg:mt-0 py-8 md:px-0 px-4" data-aos="fade-left">
             <img src="./images/usb.svg" alt="img" class="h-10 mx-auto" />
             <h2 class="mt-8  text-black text-2xl">Studio-Quality Recording, Made Simple</h2>
             <p class="mt-2   text-base  text-grey-500">
@@ -336,6 +337,10 @@
           </div>
         </div>
       </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
